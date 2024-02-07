@@ -20,7 +20,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
-.bodynotfound{
+.bodynotfound {
     margin: 0px;
     height: 500px;
     width: 500px;
@@ -35,5 +35,17 @@ footer {
   width: 13rem;
   
 }
-
-
+.wtf-cat {
+  background-size: cover;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin: auto;
+}
+.notfoundtext {
+  text-align: center;
+}
