@@ -2,9 +2,9 @@ header {
  
   background-color: #f5f5dc;
   color: #5c4033;
-  padding: 1rem;
+  padding: 10px;
   text-align: center;
-  
+ 
 }
 body {
   font-family: 'Arial', sans-serif;
@@ -16,6 +16,9 @@ footer {
   color: #5c4033;
   padding: 1rem;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 .bodynotfound{
     margin: 0px;
@@ -28,7 +31,9 @@ footer {
     justify-content: center;
     background-color: #5c4033;
 }
-body {
-display: flex;
-justify-content: center;
+.cat-logo {
+  width: 13rem;
+  
 }
+
+

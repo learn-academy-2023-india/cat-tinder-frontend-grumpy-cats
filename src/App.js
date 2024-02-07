@@ -17,7 +17,7 @@ const App = () => {
   console.log(cats)
   return (
     <>
-    <header><Header /></header>
+   <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/catindex" element={<CatIndex />} />
@@ -26,7 +26,7 @@ const App = () => {
         <Route path="/catedit" element={<CatEdit />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <footer><Footer /></footer>
+      <Footer />
     </>
   )
 }
