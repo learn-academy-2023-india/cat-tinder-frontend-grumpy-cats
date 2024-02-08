@@ -9,5 +9,8 @@ describe("<Home />", () => {
         <BrowserRouter>
           <Home />
         </BrowserRouter>
-      )}
-  )})
+    )
+    const home = screen.getByRole('homeinfo')
+    expect(home).toBeInTheDocument()
+  })
+})

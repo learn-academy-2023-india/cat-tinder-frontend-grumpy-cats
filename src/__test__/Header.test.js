@@ -14,6 +14,18 @@ describe("<Header />", () => {
     expect(header).toHaveAttribute("src", "cat-logo.png")
     expect(header).toHaveAttribute("alt", "Cat Tinder logo with outline of cat")
   })
+
+  it("has clickable links", () => {
+    render(
+      <BrowserRouter>
+        <Header />
+      </BrowserRouter>
+    )
+    userEvent.click(screen.getByText("Meet Local Cats"))
+    expect(screen.getByText("Meet Local Cats")).toBeInTheDocument()
+    userEvent.click(screen.getByText("Create Cat Account"))
+    expect(screen.getByText("Create Cat Account")).toBeInTheDocument()
+  })
 })
 
 export default Header

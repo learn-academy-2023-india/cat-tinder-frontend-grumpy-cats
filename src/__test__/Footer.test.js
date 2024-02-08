@@ -8,5 +8,8 @@ describe("<Footer />", () => {
         <BrowserRouter>
           <Footer />
         </BrowserRouter>
-      )}
-  )})
+      )
+      const footer = screen.getByRole('text')
+      expect(footer).toBeInTheDocument()
+    })
+})

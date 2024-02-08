@@ -1,11 +1,22 @@
-header {
- 
+.header-nav {
   background-color: #f5f5dc;
   color: #5c4033;
   padding: 10px;
-  text-align: center;
- 
+  text-align: left;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
+
+a {
+  color: #5c4033 !important;
+  font-weight: bold !important;
+}
+
+.nav-links {
+  display: flex;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
