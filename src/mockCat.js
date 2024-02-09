@@ -2,10 +2,10 @@ const mockCat = [
     {       
         id: 1,
         name: "Felix",
-        age: 2,
+        age: 32,
         enjoys: "Long naps on the couch, and a warm fire.",
         image:
-        "https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1036&q=80"
+        "https://img.freepik.com/premium-photo/3d-rendering-funny-tiger_183364-25983.jpg"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const mockCat = [
         age: 12,
         enjoys: "Food mostly, really just food.",
         image:
-        "https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80"
+        "https://img.freepik.com/free-photo/cute-kitten-staring-out-window-playful-curiosity-generative-ai_188544-12520.jpg"
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const mockCat = [
         age: 5,
         enjoys: "Furrrrociously hunting bugs.",
         image:
-        "https://images.unsplash.com/photo-1492370284958-c20b15c692d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
+        "https://www.boredpanda.com/blog/wp-content/uploads/2016/10/worlds-most-beautiful-cats-62-57fdd43432e05__700.jpg"
     },  
    {
         id: 4,
@@ -29,7 +29,7 @@ const mockCat = [
         age: 3,
         enjoys: "Stopped jumping and started taxing honey. Bish betta have my honey.",
         image:
-        "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.etsystatic.com%2F40383551%2Fr%2Fil%2F9fbfa0%2F4569698620%2Fil_fullxfull.4569698620_tcpx.jpg&tbnid=Ttt0vYRORAv7IM&vet=12ahUKEwjqiqf26JSEAxVPPUQIHZwzB98QMygQegUIARCOAQ..i&imgrefurl=https%3A%2F%2Fwww.etsy.com%2Flisting%2F1404266777%2Faffiche-dun-tigre-en-costume&docid=M_8B7C6_fV1g8M&w=3000&h=3000&q=tigger%20in%20a%20suit&ved=2ahUKEwjqiqf26JSEAxVPPUQIHZwzB98QMygQegUIARCOAQ"
+        "https://www.boredpanda.com/blog/wp-content/uploads/2023/01/63b6d323c2e2b_cute-bengal-cats.jpg"
     },      
 ]
 export default mockCat
