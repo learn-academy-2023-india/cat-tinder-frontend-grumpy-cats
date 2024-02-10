@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+git checkout -b create functionality
+
+react strap . forms. copy all of it and catnew.js
+paste there and style. import form stuff, input typenumber, input html site on web3schools.
+
+nned to store new data as a set. need cat to be object as name as key and info in form as value. we need a state in our form. put useState up top and 
+
+put handlechange under type, `onChange={handleChange}`
+
+const CatNew = () => {
+    const [catFormData, setCatFormData] = useState({
+    name: '',
+    ge: '',
+    enjoys: '',
+    image: '',
+})
+
+const handleChange = (e) =>{
+    console.log(e)
+    console.log(e.target.value)
+
+    setCatFormData({ [e.target.name]: e.target.value})
+}}
+
+functional props to pass data. appjs
+const createCat = (newCat) => {
+
+}
