@@ -30,7 +30,7 @@ const CatNew = ({ createCat }) => {
         <Input
         type="text" 
          name="name"
-         id="name"
+         data-testid="name"
          onChange={handleChange} 
         value={newCat.name}
         />
@@ -41,7 +41,7 @@ const CatNew = ({ createCat }) => {
         </Label>
         <Input
         type="number" 
-        id="age"
+        data-testid="age"
         name="age" 
         onChange={handleChange} 
         value={newCat.age} 
@@ -53,7 +53,7 @@ const CatNew = ({ createCat }) => {
         </Label>
         <Input
         type="text" 
-        id="enjoys"
+        data-testid="enjoys"
         name="enjoys" 
         onChange={handleChange} 
         value={newCat.enjoys} 
@@ -65,7 +65,7 @@ const CatNew = ({ createCat }) => {
         </Label>
         <Input
         type="text" 
-        id="image"
+        data-testid="image"
         name="image" 
         onChange={handleChange} 
         value={newCat.image} 

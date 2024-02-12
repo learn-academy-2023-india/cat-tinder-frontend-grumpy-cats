@@ -16,8 +16,8 @@ const App = () => {
   const createCat = (cat) => {
     console.log(cat)
   }
-  
-  console.log(cats)
+
+
   return (
     <>
    <Header />
