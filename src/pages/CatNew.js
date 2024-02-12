@@ -22,7 +22,7 @@ const CatNew = ({ createCat }) => {
   return (
     <div className="form-container">
       <h1>Cat New</h1>
-      <Form onSubmit={handleSubmit} className="form">
+      <Form className="form">
         <FormGroup>
           <Label for="name">Name</Label>
           <Input
@@ -63,7 +63,7 @@ const CatNew = ({ createCat }) => {
             value={newCat.image}
           />
         </FormGroup>
-        <Button onClick={handleSubmit} type="submit" name="submit">
+        <Button onClick={handleSubmit} name="submit">
           Submit
         </Button>
       </Form>
