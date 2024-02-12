@@ -8,7 +8,7 @@ const CatNew = ({ createCat }) => {
     name: "",
     age: "",
     enjoys: "",
-    image: ""
+    image: "",
   })
   const handleChange = (e) => {
     setNewCat({ ...newCat, [e.target.name]: e.target.value })
@@ -20,64 +20,55 @@ const CatNew = ({ createCat }) => {
   }
 
   return (
-      <div className="form-container">
-        <h1>Cat New</h1>
-        <Form onSubmit={handleSubmit} className="form">
+    <div className="form-container">
+      <h1>Cat New</h1>
+      <Form onSubmit={handleSubmit} className="form">
         <FormGroup>
-        <Label for="name">
-          Name
-        </Label>
-        <Input
-        type="text" 
-         name="name"
-         data-testid="name"
-         onChange={handleChange} 
-        value={newCat.name}
-        />
+          <Label for="name">Name</Label>
+          <Input
+            type="text"
+            name="name"
+            data-testid="name"
+            onChange={handleChange}
+            value={newCat.name}
+          />
         </FormGroup>
         <FormGroup>
-        <Label for="Age">
-          Age
-        </Label>
-        <Input
-        type="number" 
-        data-testid="age"
-        name="age" 
-        onChange={handleChange} 
-        value={newCat.age} 
-        />
+          <Label for="Age">Age</Label>
+          <Input
+            type="number"
+            data-testid="age"
+            name="age"
+            onChange={handleChange}
+            value={newCat.age}
+          />
         </FormGroup>
         <FormGroup>
-        <Label for="enjoys">
-          Enjoys
-        </Label>
-        <Input
-        type="text" 
-        data-testid="enjoys"
-        name="enjoys" 
-        onChange={handleChange} 
-        value={newCat.enjoys} 
-        />
-       </FormGroup>
+          <Label for="enjoys">Enjoys</Label>
+          <Input
+            type="text"
+            data-testid="enjoys"
+            name="enjoys"
+            onChange={handleChange}
+            value={newCat.enjoys}
+          />
+        </FormGroup>
         <FormGroup>
-        <Label for="image">
-          Image
-        </Label>
-        <Input
-        type="text" 
-        data-testid="image"
-        name="image" 
-        onChange={handleChange} 
-        value={newCat.image} 
-        />
-       </FormGroup>
-          <Button onClick={handleSubmit} type="submit" name="submit">
-            Submit
-          </Button>
-        </Form>
-      </div>
+          <Label for="image">Image</Label>
+          <Input
+            type="text"
+            data-testid="image"
+            name="image"
+            onChange={handleChange}
+            value={newCat.image}
+          />
+        </FormGroup>
+        <Button onClick={handleSubmit} type="submit" name="submit">
+          Submit
+        </Button>
+      </Form>
+    </div>
   )
 }
-
 
 export default CatNew
