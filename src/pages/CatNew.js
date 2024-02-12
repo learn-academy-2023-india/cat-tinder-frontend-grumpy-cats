@@ -71,9 +71,9 @@ const CatNew = ({ createCat }) => {
         value={newCat.image} 
         />
        </FormGroup>
-       <Button onClick={handleSubmit} type="submit" name="submit">
-          Submit
-        </Button>
+          <Button onClick={handleSubmit} type="submit" name="submit">
+            Submit
+          </Button>
         </Form>
       </div>
   )
