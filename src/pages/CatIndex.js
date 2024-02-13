@@ -42,7 +42,7 @@ const CatIndex = ({ cats }) => {
         <ModalBody>
           {selectedCat && (
             <div>
-              <img alt={`profile of a cat named ${selectedCat.name}`} src={selectedCat.image} />
+              <img alt={`profile of a cat named ${selectedCat.name}`} src={selectedCat.image} className="modal-img" />
             </div>
           )}
         </ModalBody>
