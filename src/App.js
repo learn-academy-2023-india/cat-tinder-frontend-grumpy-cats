@@ -9,7 +9,6 @@ import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
 import { Routes, Route } from "react-router-dom"
 import "./App.css"
-// import mockCat from "./mockCat.js"
 
 const App = () => {
   const [cats, setCats] = useState([])

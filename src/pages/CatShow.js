@@ -12,14 +12,18 @@ const CatShow = ({ cats }) => {
 
   return (
     <>
+      <div className="show-cat">
       <h3>Introducing, {cat?.name}!</h3>
       <img
         src={cat?.image}
         alt="profile of all our cats friends"
         className="cat-profile-pic"
       />
-       <p>Age: {cat?.age}</p>
-       <p>Enjoys: {cat?.enjoys}</p>  
+        <div className="show-text">
+          <p>Age: {cat?.age}</p>
+          <p>Enjoys: {cat?.enjoys}</p>  
+        </div>
+      </div>
     </>
   )
 }
